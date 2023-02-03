@@ -1,0 +1,8 @@
+a = 'mUडu budधamatIdEwi wigrahAnni kOटa nuqci kAjEyAli adi uqडagA टrOy gOडalanu mIru paडagoटटalEru ani caqdruडu rUpaधaruडiki ceppAडu'
+b = 'mUडu,mUडubudधamatIdEwiwigrahAnnikOटanuqcinuqciadi,uqडagA, टrOygOडalanumIrupaडagoटटalEru,anicaqdruडu,rUpaधaruडikiceppAडu'
+
+a = 'aqdulO eqdarO tatwajञAnuluqटAru wAriniguriqci janasAmAnyAniki teliyadu mahAmaqtri ayina wijayamahArAjunu ढillilO prati okkaडU erugunu kAni AyanE tatwAlu raciqcE wijayadAsani wijञAnacaqdruडiki teliyadu'
+b = 'aqdulOeqdarOtatwajञAnuluqटAru, wAriniguriqcijanasAmAnyAnikiteliyadu, mahAmaqtriayinawijayamahArAjunu, ढillilOpratiokkaडUerugunu, erugunu, kAniAyanEtatwAluraciqcEwijayadAsani, wijञAnacaqdruडikiteliyadu'
+
+a = 'I grAmaqlO prajala praधAna wRtti wyawasAyaq'
+b = 'IgrAmaqlOprajalapraधAnawRtti,wyawasAyaq'

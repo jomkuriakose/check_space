@@ -1,0 +1,7 @@
+train_telugumale_01175,మూడు,బుద్ధమతీదేవి,విగ్రహాన్ని,కోట,నుంచి,కాజేయాలి,అది,ఉండగా,ట్రోయ్,గోడలను,మీరు,పడగొట్టలేరు,అని,చంద్రుడు,రూపధరుడికి,చెప్పాడు
+train_telugumale_01175,mUडu,budधamatIdEwi,wigrahAnni,kOटa,nuqci,kAjEyAli,adi,uqडagA,टrOy,gOडalanu,mIru,paडagoटटalEru,ani,caqdruडu,rUpaधaruडiki,ceppAडu
+train_telugumale_01175,mUडu,mUडubudधamatIdEwiwigrahAnnikOटanuqcinuqciadi,uqडagA,टrOygOडalanumIrupaडagoटटalEru,anicaqdruडu,rUpaधaruडikiceppAडu
+
+train_telugumale_01197,అందులో,ఎందరో,తత్వజ్ఞానులుంటారు,వారినిగురించి,జనసామాన్యానికి,తెలియదు,మహామంత్రి,అయిన,విజయమహారాజును,ఢిల్లిలో,ప్రతి,ఒక్కడూ,ఎరుగును,కాని,ఆయనే,తత్వాలు,రచించే,విజయదాసని,విజ్ఞానచంద్రుడికి,తెలియదు
+train_telugumale_01197,aqdulO,eqdarO,tatwajञAnuluqटAru,wAriniguriqci,janasAmAnyAniki,teliyadu,mahAmaqtri,ayina,wijayamahArAjunu,ढillilO,prati,okkaडU,erugunu,kAni,AyanE,tatwAlu,raciqcE,wijayadAsani,wijञAnacaqdruडiki,teliyadu
+train_telugumale_01197,aqdulOeqdarOtatwajञAnuluqटAru,wAriniguriqcijanasAmAnyAnikiteliyadu,mahAmaqtriayinawijayamahArAjunu,ढillilOpratiokkaडUerugunu,erugunu,kAniAyanEtatwAluraciqcEwijayadAsani,wijञAnacaqdruडikiteliyadu
