@@ -10,8 +10,8 @@ from difflib import SequenceMatcher
 
 # out = 'mUडu, mUडu budधamatIdEwi wigrahAnni kOटa nuqci nuqci adi, uqडagA,  टrOy gOडalanu mIru paडagoटटalEru, ani caqdruडu, rUpaधaruडiki ceppAडu'
 
-a = 'brahmadattuडu kAशIrAjyAnnI paripAliqcE kAlaqlO A nagaraqlO धanikuडऐna oka goppawartakuडuqडEwAडu Ayanaku mitrawiqdakuडani oka koडukuqडE wAडu I mitrawiqdakuडu eqtO pApAtmuडu wartakuडu canipOyAka Ayana BArya tana kumAruडiki nAyanA dAnAlu ceyyi niyamAlu pAटiqcu धarmaq anusariqcu ani eqtO hitabOधa cEsiqdi kAni wAडu talli mAटalu koqcemऐnA winipiqcukOlEdu'
-b = 'brahmadattuडu,kAशIrAjyAnnIparipAliqcEkAlaqlO,AnagaraqlOधanikuडऐna,okagoppawartakuडuqडEwAडu,Ayanaku,mitrawiqdakuडaniokakoडukuqडEwAडu,Imitrawiqdakuडu,eqtOpApAtmuडu,wartakuडucanipOyAka,AyanaBArya,tanakumAruडiki,nAyanA,dAnAlu,dAnAluniyamAlupAटiqcu,pAटiqcuधarmaq,anusariqcu,anieqtOhitabOधacEsiqdi,kAni,wAडu,tallimAटalukoqcemऐnAwinipiqcukOlEdu'
+# a = 'brahmadattuडu kAशIrAjyAnnI paripAliqcE kAlaqlO A nagaraqlO धanikuडऐna oka goppawartakuडuqडEwAडu Ayanaku mitrawiqdakuडani oka koडukuqडE wAडu I mitrawiqdakuडu eqtO pApAtmuडu wartakuडu canipOyAka Ayana BArya tana kumAruडiki nAyanA dAnAlu ceyyi niyamAlu pAटiqcu धarmaq anusariqcu ani eqtO hitabOधa cEsiqdi kAni wAडu talli mAटalu koqcemऐnA winipiqcukOlEdu'
+# b = 'brahmadattuडu,kAशIrAjyAnnIparipAliqcEkAlaqlO,AnagaraqlOधanikuडऐna,okagoppawartakuडuqडEwAडu,Ayanaku,mitrawiqdakuडaniokakoडukuqडEwAडu,Imitrawiqdakuडu,eqtOpApAtmuडu,wartakuडucanipOyAka,AyanaBArya,tanakumAruडiki,nAyanA,dAnAlu,dAnAluniyamAlupAटiqcu,pAटiqcuधarmaq,anusariqcu,anieqtOhitabOधacEsiqdi,kAni,wAडu,tallimAटalukoqcemऐnAwinipiqcukOlEdu'
 
 def seq_matcher(a,b,verbose=False):
     s = SequenceMatcher(None, a, b)
@@ -135,7 +135,13 @@ if __name__=="__main__":
     # a = 'I grAmaqlO prajala praधAna wRtti wyawasAyaq'
     # b = 'IgrAmaqlOprajalapraधAnawRtti,wyawasAyaq'
     # seq_matcher(a,b)
-    phone_file = 'text_phone'
-    HS_file = 'text_HS'
-    out_file = 'out_phone_new'
+    
+    # phone_file = 'text_phone'
+    # HS_file = 'text_HS'
+    # out_file = 'out_phone_new'
+
+    phone_file = sys.argv[1]
+    HS_file = sys.argv[2]
+    out_file = sys.argv[3]
+
     main(phone_file, HS_file, out_file)

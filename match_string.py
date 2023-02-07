@@ -77,7 +77,13 @@ if __name__=="__main__":
     # a = 'I grAmaqlO prajala praधAna wRtti wyawasAyaq'
     # b = 'IgrAmaqlOprajalapraधAnawRtti,wyawasAyaq'
     # seq_matcher(a,b)
-    phone_file = 'text_phone'
-    HS_file = 'text_HS'
-    out_file = 'out_phone'
+    
+    # phone_file = 'text_phone'
+    # HS_file = 'text_HS'
+    # out_file = 'out_phone'
+    
+    phone_file = sys.argv[1]
+    HS_file = sys.argv[2]
+    out_file = sys.argv[3]
+    
     main(phone_file, HS_file, out_file)
